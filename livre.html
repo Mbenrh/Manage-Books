@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Ajouter des  livres</h2>
+
+<form action="./addBook" method="POST">
+  <label for="isbn">ISBN:</label>
+  <input type="text" name="isbn" required><br>
+
+  <label for="titre">Titre:</label>
+  <input type="text" name="titre" required><br>
+
+  <label for="auteur">Auteur:</label>
+  <input type="text" name="auteur" required><br>
+
+  <label for="editeur">Editeur:</label>
+  <input type="text" name="editeur" required><br>
+
+  <label for="prix">Prix:</label>
+  <input type="number" step="0.01" name="prix" required><br>
+
+  <input type="submit" value="Ajouter le livre">
+</form>
+
+
+</body>
+</html>
